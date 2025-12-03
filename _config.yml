@@ -8,7 +8,7 @@ author:
   email: dataq@kei.re.kr, keiaidt@gmail.com
 
 # GitHub Pages 기본 설정
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 
 # 네비게이션 메뉴
 header_pages:
