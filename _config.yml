@@ -5,7 +5,7 @@ url: ""
 
 author:
   name: 환경데이터전략센터
-  email: ev0wner.han@gmail.com
+  email: dataq@kei.re.kr, keiaidt@gmail.com
 
 # GitHub Pages 기본 설정
 theme: minima
@@ -43,6 +43,7 @@ paginate_path: "/blog/page:num"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # 한국어 설정
 lang: ko
