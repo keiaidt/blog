@@ -1,0 +1,49 @@
+title: 환경데이터전략센터 기술 블로그
+description: 환경 데이터를 활용한 정책·서비스 인사이트와 기술 아카이브.
+baseurl: "" 
+url: "" 
+
+author:
+  name: 환경데이터전략센터
+  email: ev0wner.han@gmail.com
+
+# GitHub Pages 기본 설정
+theme: minima
+
+# 네비게이션 메뉴
+header_pages:
+  - index.md
+  - _pages/projects.md
+  - _pages/blog.md
+  - _pages/about.md
+
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+
+paginate: 5
+paginate_path: "/blog/page:num"
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# 한국어 설정
+lang: ko
+timezone: Asia/Seoul
